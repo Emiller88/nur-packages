@@ -4,7 +4,7 @@ sudo: false
 
 env:
   global:
-    - CACHIX_CACHE=emiller88
+    - CACHIX_CACHE=
     - NUR_REPO=emiller88/nur-packages
 
 matrix:
