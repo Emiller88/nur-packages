@@ -41,6 +41,5 @@ in appimageTools.wrapType2 rec {
     homepage = "https://cancel.fm/ripcord";
     license = licenses.isc;
     platforms = [ "x86_64-linux" ];
-    maintainers = with maintainers; [ hlissner ];
   };
 }
