@@ -15,5 +15,6 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   ripcord = pkgs.callPackage ./pkgs/ripcord { };
-  ms-pls = pkgs.callPackage ./pkgs/python-language-server { };
+  # ms-pls = pkgs.callPackage ./pkgs/python-language-server { };
+  zunit = pkgs.callPackage ./pkgs/zunit { };
 }
